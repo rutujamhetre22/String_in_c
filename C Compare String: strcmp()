@@ -1,0 +1,26 @@
+//C Compare String: strcmp()
+
+
+#include<stdio.h>  
+#include <string.h>    
+int main(){    
+char s1[20],s2[20];
+printf("enter the first string");
+gets(s1);
+printf("enter the secand string");
+gets(s2);
+if(strcmp(s1,s2)==0){
+    printf("string is equal");
+    
+}
+else{
+    printf("string is not equal");
+}
+}  
+
+*****output*********
+enter the first string Rutuja
+Rutuja
+enter the secand string rutuja
+rutuja
+string is not equal
