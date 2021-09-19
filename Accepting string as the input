@@ -1,0 +1,18 @@
+//Accepting string as the input
+
+#include<stdio.h>  
+#include<string.h>  
+int main(){  
+    char s[20];
+    printf("enter the string");
+    scanf("%s",&s);
+    printf("the string is %s",s);
+ 
+   return 0;
+}
+
+******Output******
+enter the string rutuja
+rutuja
+the string is rutuja
+ 
