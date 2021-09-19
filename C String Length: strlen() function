@@ -1,0 +1,11 @@
+//C String Length: strlen() function
+#include<stdio.h>  
+#include <string.h>    
+int main(){    
+char name[20]={'r','u','t','u','j','a','\0'};
+printf("the lenth of %d",strlen(name));
+return 0;    
+}  
+
+****output*******
+the lenth of 6
