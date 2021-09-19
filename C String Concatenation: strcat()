@@ -1,0 +1,12 @@
+//C String Concatenation: strcat()
+
+
+#include<stdio.h>  
+#include <string.h>    
+int main(){    
+char name[20]={'r','u','t','u','j','a','\0'};
+char ch[20]={'m','h','e','t','r','e','\0'};
+strcat(ch,name);
+printf("the copy of sting %s",ch);
+return 0;    
+}    
