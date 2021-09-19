@@ -1,0 +1,15 @@
+//Pointer with String
+
+#include<stdio.h>  
+#include<string.h>  
+int main(){  
+    char s[20]="rutuja";
+  char *p=s;
+  printf("enter the string");
+  scanf("%s",s);
+   return 0;
+}
+ 
+******output******
+enter the string rutuja
+rutuja
