@@ -1,0 +1,16 @@
+
+//C Copy String: strcpy()
+
+#include<stdio.h>  
+#include <string.h>    
+int main(){    
+char name[20]={'r','u','t','u','j','a','\0'};
+char ch[20];
+strcpy(ch,name);
+printf("the copy of sting %s",ch);
+return 0;    
+}    
+
+*****output********
+the copy of sting rutuja
+
